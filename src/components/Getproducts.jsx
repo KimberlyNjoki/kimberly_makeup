@@ -20,7 +20,7 @@ const Getproducts = () => {
         setLoading('Please wait, we are retrieving the products')
         try {
             const response = await axios.get(
-                'https://kimberlynjoki.pythonanywhere.com/api/get_product_details'
+                "https://Kimberlynjoki.pythonanywhere.com/api/get_product_details"
             )
             setProducts(response.data)
             setLoading('')
