@@ -26,7 +26,7 @@ const Getproducts = () => {
             setLoading('')
         } catch (error) {
             setLoading('')
-            setError('There was an error')
+            setError(error)
         }
 
 
