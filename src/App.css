@@ -1,0 +1,460 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #fff0fc;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(40px + 2vmin);
+  color: rgb(86, 5, 72);
+  font-family: cursive;
+  font-weight: lighter;
+  padding: 0px;
+  text-decoration-line: overline;
+ 
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.product_img {
+  object-fit:contain;
+  width:100%;
+  height: 200px;
+ }
+.App-h2{
+  font-family: fantasy;
+  
+  background-color:  #fff0fc;
+  color: rgb(86, 5, 72) ;
+  font-family: serif;
+}
+.App-button{
+  background-color:  #fff0fc;
+  color: rgb(86, 5, 72) ;
+  padding: 1%;
+  
+}
+.App-p{
+  font-size: calc(10px + 2vmin);
+  font-family: serif;
+  font-weight: 0px;
+}
+.App-buttan{
+  background-color: rgb(38, 1, 48) ;
+  color:  #fff0fc;
+  padding: 1%;
+  text-decoration-line: none;
+  
+}
+.net{
+  padding: 2%;
+  background-color:  #fff0fc;
+}
+.k{
+  background-color: rgb(86, 5, 72) ;
+  color:  #fff0fc;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+  
+
+
+.boy{
+  background-color: #fff0fc;
+}
+.chi{
+  background-color: rgb(86, 5, 72) ;
+}
+
+
+.bg-overlay{
+  filter: blur(100);
+  background-image: url('../public/images/decor/bouquet-4736413_1280.jpg');
+ background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+ 
+  
+  
+
+
+}
+.bg-overloy{
+  filter: blur(100);
+  background-image: url('../public/images/decor/bouquet-4736413_1280.jpg');
+ background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: stretch;
+
+ 
+  
+  
+
+
+}
+
+
+
+.App-q{
+  font-size: calc(20px + 2vmin);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 100;
+  padding: 0px;
+}
+  .text{
+    text-decoration-line: underline;
+   font-weight: 400;
+  }
+  .pri{
+    padding: 20px;
+  }
+  .img{
+    height: 400px;
+    width: 400px;
+    object-fit: contain;
+  }
+  .pig{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(86, 5, 72);
+    font-weight: bolder;
+    font-size:200%;
+  }
+  .bop{
+   background: linear-gradient(#ddd,#fff0fc,#ddd);
+    text-emphasis-color: transparent;
+    
+  }
+  .form{
+max-height: 50vh;
+padding-bottom: 70px;
+
+  }
+  .form1{
+    padding-bottom: 40px;
+    max-height: 30vh;
+  }
+  .form2 {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    color: white;
+  }
+  .h-230{
+    height: 180px;
+    
+  
+  }
+  .cart-container {
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 30px;
+    justify-content: center;
+    background-color: #f9f9f9;
+    max-width: 400px;
+  }
+  
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  .cart-item:last-child {
+    border-bottom: none;
+  }
+  
+  .cart-summary {
+    margin-top: 15px;
+    font-weight: bold;
+    text-align: right;
+  }
+  
+  .remove-btn {
+    background: #f190f5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 4px 8px;
+    cursor: pointer;
+    text-decoration-line: none;
+  }
+  .cart-icon-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .cart-icon-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  .dark-background {
+  background-color: #1e1e1e;
+  color: white;
+  min-height: 100vh;
+  padding-bottom: 50px;
+}
+
+.bg-dark-gray {
+  background-color: #2c2c2c;
+  color: white;
+}
+
+.product_img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+ body {
+  background-color: #1e1e1e;
+  color: #fff;
+}
+
+.card {
+  background-color: #2c2c2c;
+  color: #fff;
+}
+
+input, .form-control {
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #555;
+}
+/* App.css */
+
+.background-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('/public/images/decor/bouquet-4736413_1280.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(5%);
+  z-index: 0;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8); /* Optional: dark overlay */
+  z-index: 1;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+}
+.col{
+  color:  rgb(86, 5, 72) ;
+  background-color:  #fff0fc;
+  box-sizing: inherit;
+}
+.bty{
+   color:  rgb(86, 5, 72) ;
+  background-color:  #fff0fc;
+}
+.text{
+  size: 80px; 
+  color: lightpink;
+  font-family: cursive;
+}
+.navlink{
+  background-color: #fff0fc ;
+  text-decoration-color: transparent;
+}
+.input-container {
+  position: relative;
+}
+
+.input-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #ccc;  /* Adjust color if needed */
+  font-size: 18px;
+ 
+}
+
+.form-control {
+  padding-left: 30px; /* Add space to the left for icons */
+}
+.input-container {
+  position: relative;
+}
+
+.input-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #888;  /* Light gray color for the icons */
+  font-size: 20px;  /* Adjust icon size as needed */
+  
+}
+
+.form-control {
+  padding-left: 40px; /* Add padding to the left to make space for icons */
+}
+
+/* Container for the input field with icon */
+.input-group {
+  position: relative;
+}
+
+/* Style for the icons in the input fields */
+.input-group-text {
+  background-color: #f1f1f1;  /* Light background for icons */
+  border: 1px solid #ced4da;  /* Border around the icon */
+  border-right: none;  /* Remove right border */
+  padding: 10px;  /* Padding for a balanced look */
+  font-size: 18px;  /* Icon size */
+  color: #6c757d;  /* Icon color */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;  /* Width for the icon */
+  height: 50px;  /* Height for the icon */
+  border-radius: 50%;  /* Circular icon */
+}
+
+/* Style for the input field */
+.form-control {
+  padding-left: 60px;  /* Space to make room for the icon */
+  border: 1px solid #ced4da;  /* Border color */
+  border-radius: 25px;  /* Rounded corners for the input field */
+  font-size: 16px;  /* Input font size */
+  height: 50px;  /* Height of the input field */
+}
+
+/* Style for password strength text */
+small {
+  display: block;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+/* Optional: Style for the submit button */
+.btn-primary {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+.splash-screen {
+  background-color: #e89eef;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+}
+
+/* You can put this in your CSS file */
+
+
+.alert-warning {
+  color: #000; /* Make warning text black */
+  background-color: #f8d7da; /* Adjust background for contrast */
+}
+
+h2, .card-title, .card-text {
+  color: #fff; /* Ensure text is white */
+}
+
+.d-flex {
+  color: #fff; /* Make the total price text white */
+}
+
+.btn {
+  color: #fff;
+  background-color: #fff0fc ;
+  padding: 10px;
+  margin: 10px;
+  width: 100%;
+  /* Make button text white */
+}
+.btn {
+  min-width: 200px;
+  transition: 0.3s ease-in-out;
+}
+.btn:hover {
+  transform: scale(1.05);
+}
+.quiz-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f3f9f7, #e0f7fa);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quiz-card {
+  max-width: 600px;
+  width: 100%;
+  border-radius: 12px;
+  background-color: #fff;
+}
+
+.form-label {
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+select.form-control {
+  border-radius: 8px;
+}
